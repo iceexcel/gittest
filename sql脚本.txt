@@ -1,0 +1,9 @@
+﻿insert into mysql.user(Host,User,Password) values("%","zs08",password("1234"));
+flush privileges;
+grant select on mydb.* to 'zs08'@'%' identified by '1234';
+flush privileges;
+
+
+select date_format(birth,"%Y-%m-%d %H:%i:%s") from ttt;
+select date_format(birth,"%Y-%m-%d %T") from ttt;
+
