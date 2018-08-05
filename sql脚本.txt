@@ -6,8 +6,7 @@ flush privileges;
 
 select date_format(birth,"%Y-%m-%d %H:%i:%s") from ttt;
 select date_format(birth,"%Y-%m-%d %T") from ttt;
-sql42dev
+sql43dev
 1. 分支提交
-3. 主干更新
 2. 主干meger(修改本地代码，修改项目符号)
-4. 主干pull
+3. 主干pull
