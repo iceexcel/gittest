@@ -6,9 +6,4 @@ flush privileges;
 
 select date_format(birth,"%Y-%m-%d %H:%i:%s") from ttt;
 select date_format(birth,"%Y-%m-%d %T") from ttt;
-
-<<<<<<< HEAD
-分支上修改sql文件003
-=======
-分支上修改sql文件
->>>>>>> refs/remotes/origin/develop
+分支上修改sql文件004
