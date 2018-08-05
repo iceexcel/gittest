@@ -7,4 +7,4 @@ flush privileges;
 select date_format(birth,"%Y-%m-%d %H:%i:%s") from ttt;
 select date_format(birth,"%Y-%m-%d %T") from ttt;
 
-sql37
+sql38
