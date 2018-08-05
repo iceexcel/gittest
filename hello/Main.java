@@ -1,5 +1,6 @@
 package hello;
 
+<<<<<<< HEAD
 public class Main {
 
 	public static void main(String[] args) {
@@ -12,6 +13,12 @@ public class Main {
 =======
 		System.out.println("Hello World!");//第三十一次提交
 >>>>>>> refs/remotes/origin/hello-branch
+=======
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!");//第一个分支第二次提交ddd
+>>>>>>> refs/remotes/origin/bbb
 	}
 
 }
