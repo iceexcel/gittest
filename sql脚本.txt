@@ -6,11 +6,4 @@ flush privileges;
 
 select date_format(birth,"%Y-%m-%d %H:%i:%s") from ttt;
 select date_format(birth,"%Y-%m-%d %T") from ttt;
-<<<<<<< HEAD
-
-=======
-sql37
-=======
-
-sql38
->>>>>>> refs/remotes/origin/master
+sql39dev
